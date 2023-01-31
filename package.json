@@ -1,0 +1,21 @@
+{
+  "name": "todolist-with-mongodb",
+  "version": "1.0.0",
+  "description": "Mongo Database Enabled",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Prashant Porwal",
+  "license": "ISC",
+  "engines": {
+    "node": "16.15.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "mongodb": "^4.13.0",
+    "mongoose": "^6.9.0"
+  }
+}
